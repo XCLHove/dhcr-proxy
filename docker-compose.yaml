@@ -1,7 +1,7 @@
 services:
   dockerhub-proxy-test:
     container_name: dhcr-proxy
-    image: openresty/openresty:1.29.2.3-1-alpine-slim-amd64
+    image: openresty/openresty:1.31.1.1-1-alpine-slim-amd64
     ports:
       - 48080:80
     volumes:

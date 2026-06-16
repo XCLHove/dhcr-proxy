@@ -11,7 +11,7 @@
 #     -t dhcr-proxy:1.29.2.3-1 .
 # ============================================================
 
-ARG OPENRESTY_VERSION=1.29.2.3-1
+ARG OPENRESTY_VERSION=1.31.1.1-1
 ARG ALPINE_ARCH=amd64
 
 FROM openresty/openresty:${OPENRESTY_VERSION}-alpine-slim-${ALPINE_ARCH}
