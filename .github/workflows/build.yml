@@ -25,8 +25,8 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read
-      packages: write            # 推送到 GHCR 需要 packages: write
+      contents: write              # 创建 Release 需要 write
+      packages: write               # 推送到 GHCR 需要 write
 
     steps:
       # --------------------------------------------------
